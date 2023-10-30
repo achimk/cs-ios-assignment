@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CS_iOS_AssignmentTests/Pods-CS_iOS_AssignmentTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework

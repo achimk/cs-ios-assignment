@@ -1,0 +1,25 @@
+//
+//  MoviesErrorLocalizer.swift
+//  CS_iOS_Assignment
+//
+//  Created by Joachim Kret on 08/02/2021.
+//  Copyright © 2021 Backbase. All rights reserved.
+//
+
+import Foundation
+
+final class MoviesErrorLocalizer {
+    
+    func localize(error: Error) -> String {
+        guard let error = error as? MoviesError else {
+            return "Unexpected error occured." // FIXME: Localize
+        }
+        
+        switch error {
+        case .notFound:
+            return "Movie not found." // FIXME: Localize
+        case .unexpectedErrorOccured:
+            return "Unexpected error occured." // FIXME: Localize
+        }
+    }
+}
